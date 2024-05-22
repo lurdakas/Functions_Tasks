@@ -10,15 +10,17 @@ public class Main {
         System.out.println("___Ketvirta___");
         int[] skaiciai = {2, 4, 5, 6};
         DuKintamieji(skaiciai);
-        System.out.println("");
+        System.out.println("___Penkta___");
+        Skaicius(10, 20);
+        System.out.println(Skaicius(10, 20));
 
 
 
     }
 ///   Pirma uzduotis.
 
-    public static void duInt(int min, int max) {
-        System.out.println(min + max);
+    public static void duInt(int a, int b) {
+        System.out.println(a + b);
     }
 ///   Antra uzduotis.
 
@@ -34,14 +36,39 @@ public class Main {
 
 ///   Ketvirta uzduotis.
 
-            int[] skaiciai = {2,4,5,6};
+
     public static void DuKintamieji(int[] num) {
-        for (int i = 0; i < num.length; i++){
+        for (int i = 0; i < num.length; i++) {
             System.out.println(num[i]);
+        }
 
         }
 
 ///   Penkta uzduotis.
+
+
+
+    public static int Skaicius(int min, int max) {
+        return (int) (max + (Math.random() * (max - min) - min));
+
+
+
+
+///   Sesta uzduotis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
