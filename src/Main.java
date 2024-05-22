@@ -20,6 +20,9 @@ public class Main {
         System.out.println("Suma " + MasyvoSuma(RandomSkaiciai(2, 5, 5)));
         System.out.println("___Astunta___");
         System.out.println("Vidurkis " + MasyvoVidurkis(RandomSkaiciai(2, 5, 5)));
+        System.out.println("___Devinta___");
+        Staciakampis(25, 25);
+
 
 
     }
@@ -95,9 +98,16 @@ public class Main {
         return average / arr.length;
     }
 
-    {
 
+///   Devinta uzduotis.
 
+    public static void Staciakampis(int vid, int is) {
+        for (int i = 1; i < 15; i++) {
+            for (int a = 1; a < 15; a++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
 
 
@@ -160,7 +170,12 @@ public class Main {
 
 
 
-    }
+
+
+
+
+
+}
 }
 
 
