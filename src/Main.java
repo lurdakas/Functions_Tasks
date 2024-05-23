@@ -22,7 +22,8 @@ public class Main {
         System.out.println("Vidurkis " + MasyvoVidurkis(RandomSkaiciai(2, 5, 5)));
         System.out.println("___Devinta___");
         Staciakampis(25, 25);
-
+        System.out.println("___Desimta___");
+        PrintCSS("Šiandien labai graži diena");
 
 
     }
@@ -102,14 +103,18 @@ public class Main {
 ///   Devinta uzduotis.
 
     public static void Staciakampis(int vid, int is) {
-        for (int i = 1; i < 15; i++) {
-            for (int a = 1; a < 15; a++) {
+        for (int i = 1; i < 25; i++) {
+            for (int a = 1; a < 25; a++) {
                 System.out.print("*");
             }
             System.out.println();
         }
+    }
 
+///   Desimta uzduotis.
 
+    public static void PrintCSS(String text) {
+        System.out.println("tarpu yra " + (text.length() - text.replace(" ", "").length() + ", simboliu " + text.replace(" ", "").length()));
 
 
 
@@ -135,47 +140,8 @@ public class Main {
 
 
 
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
 }
 
 
